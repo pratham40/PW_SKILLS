@@ -1,0 +1,5 @@
+List any 3 ways which help us in improving the accessibility of HTML
+ans
+1. Properly use HTML markup.
+2. Include succinct, descriptive image alt text.
+3. Consider CAPTCHA options.
