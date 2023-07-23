@@ -1,0 +1,64 @@
+body{
+    background-color: #3c0101;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@200;400&family=Poppins&display=swap');
+*{
+    font-family:Montserrat;
+    color: #f0f8ff;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    /* box-shadow: 10px 5px 5px white; */
+    z-index: 1;
+}
+.navbar-nav{
+    list-style: none;
+    padding: 20px 0px;
+    vertical-align: middle;
+}
+.nav-item{
+    display: inline-block;
+    margin: 0px 20px;
+    padding-bottom: 0px;
+}
+.nav-link{
+    /* text-decoration: none; */
+    color: aliceblue;
+    /* font-weight: bold; */
+}
+.nav-link:hover{
+    color: #8282edc8;
+    font-weight: bolder;
+}
+article h1{
+    font-size: 40px;
+    /* border: solid 2px white; */
+    display: inline-block;
+    box-shadow: white 2px 2px;
+}
+img{
+    width: 150px;
+}
+.content{
+    padding: 10px 80px;
+}
+.content>section{
+    margin: 100px 0px;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.bot-icon img{
+    width: 100px;
+}
+.bot-icon{
+    position: fixed;
+    right: 20px ;
+    bottom: 20px;
+}
