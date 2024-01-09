@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Restaurant</title>
+</head>
+<style>
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        top: 0px;
+    }
+    nav>img{
+        width: 10%;
+    }
+    div a{
+        padding: 25px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    nav button{
+        border-radius: 5px;
+        font-weight: bold;
+        color: black;
+        background-color: rgba(47, 209, 47, 0.863);
+        border: none;
+        padding: 5px;
+        margin-right: 4px;
+        margin-left: 70%;
+    }
+    .hero-section{
+        position: relative;
+        left: 0px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 1320px;
+        width: 100%;
+        height: 90vh;
+        align-items: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+gap: 20px;
+        padding: 10px;
+
+    }
+    .main-content{
+        padding:  50px;
+
+    }
+    .main-content>h1{
+        font-size: 36px;
+    }
+    .main-content>p{
+        font-weight: lighter;
+        margin:40px 0px;
+        color: #4c665d;
+    }
+    .image-section{
+        position: relative;
+        right: 0;
+        background-color: yellow;
+        max-width: 1200px;
+        height: 100%;
+    }
+    .main-content button{
+        color: white;
+        background-color: black;
+        width: 140px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .image-section img{
+        width: 70%;
+        height: 100%;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        margin: auto;
+        background-color: #2b1e16;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .sub-part{
+        text-align: center;
+        margin-left: 40px;
+        padding: 10px;
+        max-width: 400px;
+    }
+    .sub-part img{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .sub-part h2{
+        color: #fff;
+        font-size: 20px;
+    }
+    .sub-part p{
+        width: 90%;
+        font-size: 15px;
+        color: #e0cbc1d5;
+    }
+</style>
+<body>
+    <!--Question-01  -->
+    <nav>
+        <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="">
+        <div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+        <button type="button">Login</button>
+    </nav>
+    <!-- Question-02 -->
+    <div class="hero-section">
+        <section class="main-content">
+            <h1>Healthy Food</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore vitae modi ab hic facere 
+                eaque voluptatum, culpa tempora, repellendus sit. Blanditiis vitae labore ipsa omnis velit, assumenda esse illum facere consequatur accusamus cupiditate sunt perferendis delectus dolor asperiores accusantium, culpa incidunt. Commodi, eligendi 
+            </p>
+            <button type="button">Read More</button>
+        </section>
+        <section class="image-section">
+            <img src="https://www.cnet.com/a/img/resize/36e8e8fe542ad9af413eb03f3fbd1d0e2322f0b2/hub/2023/02/03/afedd3ee-671d-4189-bf39-4f312248fb27/gettyimages-1042132904.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="">
+        </section>
+    </div>
+    <!-- Question-03 -->
+    <section class="features">
+        <section class="sub-part">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="">
+            <h2>No Minimum Order</h2>
+            <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </section>
+        
+        <section class="sub-part">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="">
+            <h2>Live Order Tracking</h2>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </section>
+        
+        <section class="sub-part">
+            <br>
+            <br>
+            <img  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="">
+            <h2>Lightning-Fast Delivery</h2>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </section>
+    </section>
+</body>
+</html>
