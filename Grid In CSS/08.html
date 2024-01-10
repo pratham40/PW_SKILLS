@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Picker</title>
+</head>
+<style>
+    body{
+        padding: 10px;
+        background-color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        color: white;
+        font-size: 25px;
+    }
+    .container{
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* gap: 8px; */
+        grid-row-gap: 12px;
+        width: 100%;
+    }
+    .COLOR{
+        width: 75%;
+        font-weight: bold;
+        padding: 100px 0px;
+        text-align: center;
+        border-radius:20px ;
+    }
+    .color-1{
+        background-color: #8D3DAF;
+    }
+    .color-2{
+        background-color:#E07C24;
+    }
+    .color-3{
+        background-color: #758283;
+    }
+    .color-4{
+        background-color: #E03BBB;
+    }
+    .color-5{
+        background-color: #FF6666;
+    }
+    .color-6{
+        background-color: #03C6C7;
+    }
+    .color-7{
+        background-color: #CAD5E2;
+    }
+    .color-8{
+        background-color: #35BDD0;
+    }
+</style>
+<body>
+    <p>Feeling Fancy</p>
+    <div class="container">
+        <div class="COLOR color-1">#8D3DAF</div>
+        <div class="COLOR color-2">#E07C24</div>
+        <div class="COLOR color-3">#758283</div>
+        <div class="COLOR color-4">#E03BBB</div>
+        <div class="COLOR color-5">#FF6666</div>
+        <div class="COLOR color-6">#03C6C7</div>
+        <div class="COLOR color-7">#CAD5E2</div>
+        <div class="COLOR color-8">#35BDD0</div>
+    </div>
+</body>
+</html>
