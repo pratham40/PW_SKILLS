@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grayscale filter</title>
+</head>
+<style>
+    .container{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container h1{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    img{
+        border-radius: 20px;
+        height: 500px;
+        width: 300px;
+    }
+    img:hover{
+        filter: grayscale(0.7);
+        transition: 1s ease-in-out;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Hover To Have A Grayscale Look</h1>
+        <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZHbPrf6j2hMI4944GT3OKbzcmOmAW2FX4g&usqp=CAU" alt="">
+    </div>
+</body>
+</html>
